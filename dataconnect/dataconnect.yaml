@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "65160326-SVELTE PREFIX"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "65160326-SVELTE PREFIX-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
